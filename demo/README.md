@@ -6,6 +6,7 @@ Browser demo: investigate an IP, domain, email or CVE using free APIs → weight
 
 1. Push this repo to GitHub, then import it at [vercel.com](https://vercel.com) — it auto-detects `vercel.json` + `api/index.py`.
 2. Your app is live at `https://threat-intel-hub.vercel.app` (or the URL Vercel assigns).
+3. For richer results add these **env vars** (Project → Settings → Environment Variables): `ABUSEIPDB_KEY`, `VIRUSTOTAL_KEY`, `GREYNOISE_KEY` — then Redeploy.
 
 ## Run locally
 

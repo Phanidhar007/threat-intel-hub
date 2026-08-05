@@ -12,6 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from threathub.aggregator import investigate  # noqa: E402
 from threathub.cli import _detect_kind  # noqa: E402
+from threathub.envs import get as getenv  # noqa: E402
 
 app = Flask(__name__)
 
@@ -44,8 +45,9 @@ def run():
         return BASE.format(body="<p>Enter a target.</p>")
     try:
         kind = _detect_kind(target)
-        report = investigate(target, kind, {"abuseipdb": None, "virustotal": None,
-                                            "greynoise": None})
+        report = investigate(target, kind, {"abuseipdb": getenv("ABUSEIPDB_KEY"),
+                                            "virustotal": getenv("VIRUSTOTAL_KEY"),
+                                            "greynoise": getenv("GREYNOISE_KEY")})
     except Exception as e:
         return BASE.format(body=f"<p>Error: {html.escape(str(e))}</p>")
 
