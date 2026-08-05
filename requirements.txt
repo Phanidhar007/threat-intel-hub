@@ -1,1 +1,2 @@
 # no third-party runtime deps
+flask>=3.0          # used by demo/app.py (Vercel / Render deployments)

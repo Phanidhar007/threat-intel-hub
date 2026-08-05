@@ -8,3 +8,5 @@ intel_report*
 *.egg-info/
 dist/
 build/
+.vercel/
+demo/uploads/

@@ -4,6 +4,12 @@
 
 Aggregate **IP, domain, email and CVE** intelligence from free services into one JSON report with a 0–100 risk score.
 
+## 🌐 Live demo
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<your-username>/threat-intel-hub)
+
+Try the web demo: **`https://threat-intel-hub-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
+
 ## Sources (all free)
 
 | Category | Source | Key required |
