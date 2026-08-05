@@ -6,7 +6,7 @@ Aggregate **IP, domain, email and CVE** intelligence from free services into one
 
 ## 🌐 Live demo
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<your-username>/threat-intel-hub)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<Phanidhar007>/threat-intel-hub)
 
 Try the web demo: **`https://threat-intel-hub-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
 
@@ -26,7 +26,7 @@ Try the web demo: **`https://threat-intel-hub-demo.onrender.com`** (deploy it fi
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/threat-intel-hub.git
+git clone https://github.com/<Phanidhar007>/threat-intel-hub.git
 cd threat-intel-hub
 python -m venv .venv && .venv\Scripts\activate
 pip install -r requirements.txt

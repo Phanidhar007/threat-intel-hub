@@ -4,7 +4,7 @@ Browser demo: investigate an IP, domain, email or CVE using free APIs → weight
 
 ## Try it
 
-- **Render (one-click, recommended):** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<your-username>/threat-intel-hub)
+- **Render (one-click, recommended):** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<Phanidhar007>/threat-intel-hub)
 - **Hugging Face Spaces:** Docker Space → `demo/Dockerfile`.
 - **Vercel:** import the repo → `api/index.py` + `vercel.json`.
 
