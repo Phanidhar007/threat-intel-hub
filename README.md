@@ -1,4 +1,4 @@
-# threat-intel-hub
+﻿# threat-intel-hub
 
 > **OSINT & threat intelligence aggregation** with free sources and a weighted risk score — the lightweight, API-driven cousin of [MISP](https://github.com/MISP/MISP) / [OpenCTI](https://github.com/OpenCTI-Platform/opencti) for individual lookups.
 
@@ -6,9 +6,9 @@ Aggregate **IP, domain, email and CVE** intelligence from free services into one
 
 ## 🌐 Live demo
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Phanidhar007/threat-intel-hub)
+Deploy on **Vercel**: import this repo at [vercel.com](https://vercel.com) — it auto-detects `vercel.json` + `api/index.py`.
 
-Try the web demo: **`https://threat-intel-hub-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
+Live demo: **`https://threat-intel-hub.vercel.app`** — see [demo/README.md](demo/README.md).
 
 ## Sources (all free)
 

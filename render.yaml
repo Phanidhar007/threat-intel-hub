@@ -1,8 +1,0 @@
-﻿services:
-  - type: web
-    name: threat-intel-hub-demo
-    runtime: docker
-    repo: https://github.com/Phanidhar007/threat-intel-hub
-    plan: free
-    dockerfilePath: demo/Dockerfile
-    autoDeploy: true
