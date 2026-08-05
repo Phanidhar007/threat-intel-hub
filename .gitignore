@@ -10,3 +10,5 @@ dist/
 build/
 .vercel/
 demo/uploads/
+
+.vercel

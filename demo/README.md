@@ -4,7 +4,7 @@ Browser demo: investigate an IP, domain, email or CVE using free APIs → weight
 
 ## Deploy on Vercel (free)
 
-1. Push this repo to GitHub, then import it at [vercel.com](https://vercel.com) � it auto-detects `vercel.json` + `api/index.py`.
+1. Push this repo to GitHub, then import it at [vercel.com](https://vercel.com) — it auto-detects `vercel.json` + `api/index.py`.
 2. Your app is live at `https://threat-intel-hub.vercel.app` (or the URL Vercel assigns).
 
 ## Run locally
