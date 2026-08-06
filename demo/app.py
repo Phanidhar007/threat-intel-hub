@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import html
 import os
-import sysfrom flask import Flask, request
+import sys
+
+from flask import Flask, request
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
