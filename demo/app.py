@@ -75,8 +75,6 @@ def run():
                  "".join(rows) + "</table>")
     parts.append("<p><small>Add free API keys (AbuseIPDB / VirusTotal / GreyNoise) as env vars "
                  "for richer results.</small></p>")
-    parts.append(f"<p class='debug'>keys: a={getenv('ABUSEIPDB_KEY') is not None} "
-                 f"v={getenv('VIRUSTOTAL_KEY') is not None} g={getenv('GREYNOISE_KEY') is not None}</p>")
     return BASE.format(body="".join(parts))
 
 
