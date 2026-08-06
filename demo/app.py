@@ -4,9 +4,7 @@ from __future__ import annotations
 
 import html
 import os
-import sys
-
-from flask import Flask, request
+import sysfrom flask import Flask, request
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -75,6 +73,9 @@ def run():
                  "".join(rows) + "</table>")
     parts.append("<p><small>Add free API keys (AbuseIPDB / VirusTotal / GreyNoise) as env vars "
                  "for richer results.</small></p>")
+    dbg = {k: len(os.environ.get(k) or "") for k in
+           ("ABUSEIPDB_KEY", "VIRUSTOTAL_KEY", "GREYNOISE_KEY")}
+    parts.append(f"<p class='debug'>lens={dbg} allkeys={sorted(k for k in os.environ)[:6]}</p>")
     return BASE.format(body="".join(parts))
 
 
